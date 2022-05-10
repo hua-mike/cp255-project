@@ -1,1 +1,21 @@
-theme: jekyll-theme-minimal
+theme: minima
+
+title:  
+description: sf-crosswalks
+github_username: hua-mike
+
+# Email and twitter are optional:
+email: mike.hua@berkeley.edu
+
+titles_from_headings:
+  enabled:     false
+  strip_title: true
+  collections: true
+  
+markdown: kramdown
+kramdown:
+  math_engine: katex
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
