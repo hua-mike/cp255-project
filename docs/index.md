@@ -9,7 +9,8 @@
 
 ### Inequitable Distribution of Crosswalks
 
-![](images/crosswalks.png)
+<img src="images/crosswalks.png" width="800">
+
 ![](images/cw-hexbin.png)
 
 ### Priority Crosswalk Installation
