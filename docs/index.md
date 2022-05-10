@@ -3,4 +3,4 @@
 ### CYPLAN 255: Urban Informatics and Data Visualization
 
 ![](images/crosswalks.png)
-![](images/hexbin.png)
+![](images/cw-hexbin.png)
