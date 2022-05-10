@@ -11,7 +11,7 @@ In San Francisco, CA, there are around 30 traffic deaths and over 500 serious in
 
 ### Inequitable Distribution of Crosswalks
 
-<img src="images/crosswalks.png" width="800">
+<img src="images/crosswalks.png" width="1600">
 
 ![](images/cw-hexbin.png)
 
