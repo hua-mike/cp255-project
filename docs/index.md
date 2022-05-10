@@ -36,6 +36,8 @@ The high injury network (shown below in blue) is defined by the SF Vision Zero t
 Overlaying the high injury network and Equity Priority Communities can help narrow down which missing crosswalks should be prioritized by the city. The dots shown here are all missing crosswalks that are on the high injury network and within an Equity Priority Community
 ![](images/no-cw-on-injnet-epc.png)
 
+This prioritization metric is intended as a starting point to begin conversations about which crosswalks are needed to be installed. Crosswalks are just one piece of the puzzle for pedestrian safety. Other infrastructure improvements like leading pedestrian intervals and curb bulb outs were not analyzed in this project, but are critical measures to take to get to Vision Zero goals.
+
 # Discussion
 
 From my initial analysis of the crosswalk audit data, its clear that there are spatial disparities in marked crosswalks. Northern areas of the city typically have more intersections with fully marked crosswalks than the southern areas of the city.
