@@ -16,9 +16,10 @@ This analysis builds upon the work of Marcel Moran, Ph.D. Candidate in City and 
 
 Only 58% of intersections in San Francisco have full crosswalk coverage. Mapping out intersections with and without fully marked crosswalks shows a clear spatial disparity between the northern and southern areas of the city.
 
-<img src="images/crosswalks.png" width="1600">
+<img src="images/crosswalks.png" width=150%>
 
-A hexbin map was created to show 
+The below hexbin map further illustrates the spatial disparities of crosswalks in the city. Using arbitrary hexagonal geometries helps mitigate against potential error from the [Modifiable Areal Unit Problem](https://gisgeography.com/maup-modifiable-areal-unit-problem/). This map again shows that southern portions of SF have lower crosswalk coverage.
+
 ![](images/cw-hexbin.png)
 
 ## Priority Crosswalk Installation
