@@ -24,13 +24,15 @@ The below hexbin map further illustrates the spatial disparities of crosswalks i
 
 The below map shows crosswalk coverage by Supervisor District (the SF Board of Supervisors is the legislative body of the city). Again, intersections in the southern supervisor disctricts of SF are much less likely to have fully marked crosswalks. The disparity by supervisor district might also allude to differences in political power of districts to get infrastructure improvements, however further analysis is needed.
 
-<img src="images/sup-district.png" height="1200">
+<img src="images/sup-district.png" width="2000">
 
 ## Priority Crosswalk Installation
 
 # Discussion
 
 From my initial analysis of the crosswalk audit data, its clear that there are spatial disparities in marked crosswalks. Northern areas of the city typically have more intersections with fully marked crosswalks than the southern areas of the city.
+
+The city of San Francisco should work to address missing crosswalks at critical intersections and work to reduce the inequitable distribution of crosswalk coverage. The described crosswalk installation priority analysis would help the city prioritize crosswalks that are on high-injury streets and in historically-underserved areas that deserve prioritized investment.
 
 # References
 
