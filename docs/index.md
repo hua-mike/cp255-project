@@ -28,6 +28,13 @@ The below map shows crosswalk coverage by Supervisor District (the SF Board of S
 
 ## Priority Crosswalk Installation
 
+The high injury network (shown below in blue) is defined by the SF Vision Zero team and SF Public Health as the highest-concern streets for traffic injuries. The network represens the 12% of streets where over 70% of collisions occur.
+
+![](images/hi-injury.png)
+
+Overlaying the high injury network and Equity Priority Communities can help narrow down which missing crosswalks should be prioritized by the city. The dots shown here are all missing crosswalks that are on the high injury network and within an Equity Priority Community
+![](images/no-cw-on-injnet-epc.png)
+
 # Discussion
 
 From my initial analysis of the crosswalk audit data, its clear that there are spatial disparities in marked crosswalks. Northern areas of the city typically have more intersections with fully marked crosswalks than the southern areas of the city.
