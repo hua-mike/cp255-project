@@ -9,7 +9,7 @@ In San Francisco, CA, there are around 30 traffic deaths and over 500 serious in
 
 # Analysis
 
-This analysis builds upon the work of Marcel Moran, Ph.D. Candidate in City and Regional Planning at UC Berkeley. Moran published a study mapping crosswalk coverage at all intersections in San Francisco ([Moran, 2022](https://escholarship.org/uc/item/67447864)). Moran manually reviewed satellite imagery of the roughly 6,400 intersections in SF and recorded whether all pedestrian crossing had a painted crosswalk. The study used a binary "crosswalk" or "no crosswalk" designation"—if any crosswalks were missing from an intersection, it was marked as "no crosswalk". The paper for the study describe in further detail the methodology used and assumptions made.
+This analysis builds upon the work of Marcel Moran, Ph.D. Candidate in City and Regional Planning at UC Berkeley. Moran published a study mapping crosswalk coverage at all intersections in San Francisco ([Moran, 2022](https://escholarship.org/uc/item/67447864)). Moran manually reviewed satellite imagery of the roughly 6,400 intersections in SF and recorded whether all pedestrian crossing had a painted crosswalk. The study used a binary "crosswalk" or "no crosswalk" designation"—if any crosswalks were missing from an intersection, it was marked as "no crosswalk". Manual review was chosen because available data from city agencies was not comprehensive for all intersections in SF. The full text of the study describes in further detail the methodology used and assumptions made by the researcher.
 
 This project aims to continue to study the spatial disparities of crosswalk coverage, as well as begin the process of developing a prioritization metric that can help SFMTA (SF's city department of transportation) understand which missing crosswalks should be given prioritized consideration for crosswalk installation.
 
@@ -47,7 +47,7 @@ Overlaying the high injury network and Equity Priority Communities can help narr
 
 Further narrowing of the set of priority missing crosswalks can be achieved by selecting intersection that have had a recent pedestrian collision. the below map shows data from SWITRS of all crashes involving pedestrians from 2015 to 2019. This time frame for the data was chosen because the 2020 and 2021 were still provisional at the time this analysis was conducted.
 
-![](/images/crashes.png)
+![](images/crashes.png)
 
 This data was used to select only missing crosswalks that have had at least one pedestrian collision from 2015 - 2019. A total of 28 intersections in San Francisco meet all four criteria:
 
