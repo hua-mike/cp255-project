@@ -74,5 +74,3 @@ The City of San Francisco should work to address missing crosswalks at critical 
 
 Moran, M. E. (2022). Where the Crosswalk Ends: Mapping Crosswalk Coverage via Satellite Imagery in San Francisco. Environment and Planning B: Urban Analytics and City Science, 23998083221081530. https://doi.org/10.1177/23998083221081530
 
-Nelson, R. K., Winling, L., Marciano, R., & Connolly, N. (n.d.). Mapping Inequality. American Panorama. Retrieved May 9, 2022, from https://dsl.richmond.edu/panorama/redlining/
-
