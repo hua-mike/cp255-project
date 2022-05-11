@@ -45,7 +45,7 @@ Overlaying the high injury network and Equity Priority Communities can help narr
 
 ![](images/no-cw-on-injnet-epc.png)
 
-Further narrowing of the set of priority missing crosswalks can be achieved by selecting intersection that have had a recent pedestrian collision. the below map shows data from SWITRS of all crashes involving pedestrians from 2015 to 2019. This time frame for the data was chosen because the 2020 and 2021 were still provisional at the time this analysis was conducted.
+Further narrowing of the set of priority missing crosswalks can be achieved by selecting intersection that have had a recent pedestrian collision. Data was used from the California Statewide Integrated Traffic Records System (SWITRS), accessed via UC Berkeley's SafeTREC lab (Safe Transportation Research and Education Center). The below map depicts all crashes involving pedestrians from 2015 to 2019. This time frame for the data was chosen because the 2020 and 2021 were still provisional at the time this analysis was conducted.
 
 ![](images/crashes.png)
 
