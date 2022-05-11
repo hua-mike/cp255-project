@@ -12,21 +12,21 @@ This project aims to illustrate the spatial distribution of crosswalk coverage i
 
 # Analysis
 
-This analysis builds upon the work of Marcel Moran, Ph.D. Candidate in City and Regional Planning at UC Berkeley. Moran published a 2022 study mapping crosswalk coverage at all intersections in San Francisco ([Moran, 2022](https://escholarship.org/uc/item/67447864)). Moran manually reviewed satellite imagery of all intersections in SF jurisdiction (about 6,400) and recorded whether all pedestrian crossings had a painted crosswalk. The study used a binary "crosswalk" or "no crosswalk" designation"—if any crosswalks were missing from an intersection, it was marked as "no crosswalk". A manual review was chosen because available data from city agencies was not comprehensive for all intersections in SF. The full text of the study describes in further detail the methodology used and assumptions made by the researcher.
+This analysis builds upon the work of Marcel Moran, Ph.D. Candidate in City and Regional Planning at UC Berkeley. Moran published a 2022 study mapping crosswalk coverage at all intersections in San Francisco ([Moran, 2022](https://escholarship.org/uc/item/67447864)). Moran manually reviewed satellite imagery of all intersections in SF jurisdiction (about 6,400) and recorded whether all pedestrian crossings had a painted crosswalk. The study used a binary "crosswalk" or "no crosswalk" designation"—if any crosswalks were missing from an intersection, it was marked as "no crosswalk". A manual review was chosen because available data from city agencies was not comprehensive for all intersections in SF. A simple linear regression analysis conducted by Moran found "no association between either density or average household income with crosswalk coverage at [the census tract scale], with R2 values of 0.11 and 0.001, respectively." The full text of the study describes in further detail the methodology used and assumptions made by the researcher.
 
 ## Inequitable Distribution of Crosswalks
 
-42% of intersections in San Francisco are missing full crosswalk coverage. Mapping out intersections with and without full crosswalk coverage shows a clear spatial disparity between the northern and southern areas of the city.
+42% of intersections in San Francisco are missing full crosswalk coverage. Mapping out intersections with and without full crosswalk coverage shows a clear spatial disparity between the northern neighborhoods (including neighborhoods outside of the downtown area) and southern neighborhoods of the city. This disparity is noted by Moran in his study.
 
 <img src="images/crosswalks.png" width="2000">
-
-The below hexbin map further illustrates the spatial disparities of crosswalks in the city. Using arbitrary hexagonal geometries helps mitigate against potential error from the [Modifiable Areal Unit Problem](https://gisgeography.com/maup-modifiable-areal-unit-problem/). This map again shows that southern portions of SF have lower crosswalk coverage.
-
-![](images/cw-hexbin.png)
 
 The below map shows crosswalk coverage by Supervisor District (the SF Board of Supervisors is the legislative body of the city). The north/south disparity remains clear: intersections in the southern supervisor districts of SF are much less likely to have fully marked crosswalks. The disparity by supervisor district might also allude to differences in the political power of districts to get infrastructure improvements, however further analysis is needed.
 
 <img src="images/sup-district.png" width="2000">
+
+The below hexbin map further illustrates the spatial disparities of crosswalks in the city. Using arbitrary hexagonal geometries helps mitigate against potential error from the [Modifiable Areal Unit Problem](https://gisgeography.com/maup-modifiable-areal-unit-problem/). This map again shows that southern portions of SF have lower crosswalk coverage.
+
+![](images/cw-hexbin.png)
 
 ## Priority Crosswalk Installation
 
