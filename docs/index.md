@@ -6,7 +6,7 @@
 
 # Introduction
 
-In San Francisco, California, there are around 30 traffic deaths and over 500 serious injuries each year. The City of SF, like many cities around the world, is pursuing a Vision Zero goal to have zero traffic deaths. Painted crosswalks are among the most basic forms of infrastructure meant to increase pedestrian safety, and adding crosswalks is listed in SF's Vision Zero plan as a low-cost improvement. However, many intersections in San Francisco are missing painted crosswalks, which could result in a safety risk for pedestrians in low crosswalk coverage areas.
+In San Francisco, California, there are around 30 traffic deaths and over 500 serious injuries each year. The City of SF, like many cities around the world, is pursuing a Vision Zero goal to have zero traffic deaths. Painted crosswalks are among the most basic forms of infrastructure meant to increase pedestrian safety, and adding crosswalks is listed in SF's Vision Zero plan as a low-cost improvement. However, many intersections in San Francisco are missing painted crosswalks, which could result in safety risks for pedestrians in low crosswalk coverage areas.
 
 This project aims to illustrate the spatial distribution of crosswalk coverage in San Francisco, as well as begin to develop a prioritization metric that can help SFMTA (the city department of transportation in SF) understand which missing crosswalks should be given prioritized consideration for crosswalk installation.
 
@@ -16,7 +16,7 @@ This analysis builds upon the work of Marcel Moran, Ph.D. Candidate in City and 
 
 ## Inequitable Distribution of Crosswalks
 
-42% of intersections in San Francisco are missing full crosswalk coverage. Mapping out intersections with and without full crosswalk coverage shows a clear spatial disparity between the northern neighborhoods (including neighborhoods outside of the downtown area) and southern neighborhoods of the city. This disparity is noted by Moran in his study.
+The audit dataset shows that 42% of intersections in San Francisco are missing full crosswalk coverage. Mapping out intersections with and without full crosswalk coverage shows a clear spatial disparity between the northern neighborhoods (including neighborhoods outside of the downtown area) and southern neighborhoods of the city. This disparity is noted by Moran in his study.
 
 <img src="images/crosswalks.png" width="2000">
 
@@ -28,7 +28,11 @@ The below hexbin map further illustrates the spatial disparities of crosswalks i
 
 ![](images/cw-hexbin.png)
 
+The lack of comparable crosswalk coverage in the southern neighborhoods of San Francisco might contribute to a less pedestrian-friendly environment in those neighborhoods.
+
 ## Priority Crosswalk Installation
+
+Almost 2,700 intersections in San Francisco are missing crosswalks, a quantity too great for city agencies to address them all in detail. A prioritization scheme must be created to be able to choose intersections to study for potential crosswalk installation. This project proposes a prioritization metric that incorporates existing pedestrian injury and equity metrics that the SF agencies use.
 
 The high injury network (shown below in blue) is defined by the SF Vision Zero team and SF Public Health as the highest-concern streets for traffic injuries. The network represents the 12% of streets where over 70% of collisions occur.
 
@@ -38,11 +42,11 @@ The below map with all missing crosswalks overlaid on the high injury network do
 
 ![](images/hi-inj-no-cw.png)
 
-Equity Priority Community is a designation created by the Metropolitan Transportation Commission (MTC), the regional planning agency for the SF Bay Area, to identify areas that have historically marginalized and underserved groups. Many SF and regional agencies use the Equity Priority Community framework to help prioritize transportation investments. MTC's GitHub page contains [details on the Equity Priority Community definition](https://bayareametro.github.io/Spatial-Analysis-Mapping-Projects/Project-Documentation/Equity-Priority-Communities/).
+Equity Priority Community is a designation created by the Metropolitan Transportation Commission (MTC), the regional planning agency for the SF Bay Area, to identify areas that have historically marginalized and underserved groups. Many SF and regional agencies use the Equity Priority Community framework to help prioritize transportation investments. MTC's GitHub page contains [details on the Equity Priority Community definition](https://bayareametro.github.io/Spatial-Analysis-Mapping-Projects/Project-Documentation/Equity-Priority-Communities/). The map below shows Equity Priority Communities published by the San Francisco County Transportation Authority (SFCTA), which builds upon the MTC definition by defining communities at the more granular Census block group scale.
 
 ![](images/epc.png)
 
-Overlaying the high injury network and Equity Priority Communities can help narrow down which missing crosswalks should be prioritized by the city. The dots shown here are all missing crosswalks that are on the high injury network and within an Equity Priority Community
+Overlaying the high injury network and Equity Priority Communities will narrow down the list of missing crosswalks that should be prioritized by the city. The dots shown here are all missing crosswalks that are on the high injury network and within an Equity Priority Community
 
 ![](images/no-cw-on-injnet-epc.png)
 
