@@ -1,17 +1,18 @@
 # San Francisco Crosswalks: Safety and Inequities
-### Mike Hua
+## Mike Hua
+#### Master of City Planning
 #### CYPLAN 255: Urban Informatics and Data Visualization
 #### Spring 2022
 
 # Introduction
 
-In San Francisco, California, there are around 30 traffic deaths and over 500 serious injuries each year. The City of SF, like many cities around the world, is pursuing a Vision Zero goal to have zero traffic deaths. Painted crosswalks are among the most basic forms of pedestrian infrastructure. Adding crosswalks is listed in SF's Vision Zero plan as a low-cost measure to increase safety.
+In San Francisco, California, there are around 30 traffic deaths and over 500 serious injuries each year. The City of SF, like many cities around the world, is pursuing a Vision Zero goal to have zero traffic deaths. Painted crosswalks are among the most basic forms of infrastructure meant to increase pedestrian safety, and adding crosswalks is listed in SF's Vision Zero plan as a low-cost improvement. However, many intersections in San Francisco are missing painted crosswalks, which could result in a safety risk for pedestrians in low crosswalk coverage areas.
+
+This project aims to illustrate the spatial distribution of crosswalk coverage in San Francisco, as well as begin to develop a prioritization metric that can help SFMTA (the city department of transportation in SF) understand which missing crosswalks should be given prioritized consideration for crosswalk installation.
 
 # Analysis
 
 This analysis builds upon the work of Marcel Moran, Ph.D. Candidate in City and Regional Planning at UC Berkeley. Moran published a 2022 study mapping crosswalk coverage at all intersections in San Francisco ([Moran, 2022](https://escholarship.org/uc/item/67447864)). Moran manually reviewed satellite imagery of all intersections in SF jurisdiction (about 6,400) and recorded whether all pedestrian crossings had a painted crosswalk. The study used a binary "crosswalk" or "no crosswalk" designation"—if any crosswalks were missing from an intersection, it was marked as "no crosswalk". A manual review was chosen because available data from city agencies was not comprehensive for all intersections in SF. The full text of the study describes in further detail the methodology used and assumptions made by the researcher.
-
-This project aims to continue to study the spatial disparities of crosswalk coverage, as well as begin the process of developing a prioritization metric that can help SFMTA (the city department of transportation in SF) understand which missing crosswalks should be given prioritized consideration for crosswalk installation.
 
 ## Inequitable Distribution of Crosswalks
 
