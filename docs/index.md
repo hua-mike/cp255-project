@@ -56,13 +56,15 @@ This data was used to select only missing crosswalks that have had at least one 
 3. The intersection is within an Equity Priority Community
 4. The intersection has had at least one pedestrian collision recorded in the past 5 years of available data (2015 - 2019).
 
-This smaller set of 28 crosswalks are a more manageable number for city agencies to begin to further analyze.
+This smaller set of 28 crosswalks are a more manageable quantity for city agencies to further analyze.
 
 ![](images/no-cw-on-injnet-epc-1crash.png)
 
-This prioritization metric is intended as a starting point to begin conversations about which crosswalks are needed to be installed. Crosswalks are just one piece of the puzzle for pedestrian safety. Other infrastructure improvements like leading pedestrian intervals and curb bulb outs were not analyzed in this project, but are critical measures to take to get to Vision Zero goals.
+This prioritization metric is intended as a starting point to begin conversations about which crosswalks are needed to be installed. City agencies will need to take a detailed look at each identified intersection to assess the current safety of the design and determine if installing a crosswalk is a worthwhile investment in comparison to other potential crosswalk installation sites.
 
-# Discussion
+In addition, crosswalks are just one piece of the puzzle for pedestrian safety. Other infrastructure improvements like leading pedestrian intervals and curb bulb outs were not analyzed in this project, but are critical measures to take to get to Vision Zero goals. All cohesive approach involving a variety of strategies will be needed to achieve Vision Zero.
+
+# Conclusion
 
 From my initial analysis of the crosswalk audit data, its clear that there are spatial disparities in marked crosswalks. Northern areas of the city typically have more intersections with fully marked crosswalks than the southern areas of the city.
 
